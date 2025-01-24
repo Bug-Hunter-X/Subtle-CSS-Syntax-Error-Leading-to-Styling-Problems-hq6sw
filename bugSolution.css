@@ -1,0 +1,22 @@
+/* Corrected CSS */
+.container {
+  display: flex;
+  justify-content: center; /*Corrected: added semicolon */
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  background-color: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  /*Corrected: Removed the invalid selector*/
+  /*border: 1px solid black;*/
+}
+
+/*Example of an invalid selector that targets nothing*/
+/*.nonexistent-element {*/
+/*  color: green;*/
+/*}*/
